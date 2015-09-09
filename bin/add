@@ -1,0 +1,2 @@
+cd $TODOS/bin
+ruby rake commands:add["$1"] 

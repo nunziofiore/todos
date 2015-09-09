@@ -1,0 +1,2 @@
+cd $TODOS/bin
+ruby rake commands:complete[$1]
