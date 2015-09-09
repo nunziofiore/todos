@@ -1,2 +1,2 @@
-cd $TODOS/bin
-ruby rake commands:list_all
+cd $TODOS
+ruby bin/rake commands:list_all

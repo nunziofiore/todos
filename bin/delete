@@ -1,2 +1,2 @@
-cd $TODOS/bin
-ruby rake commands:delete_by_id[$1]
+cd $TODOS
+ruby bin/rake commands:delete_by_id[$1]

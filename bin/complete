@@ -1,2 +1,2 @@
-cd $TODOS/bin
-ruby rake commands:complete[$1]
+cd $TODOS
+ruby bin/rake commands:complete[$1]
