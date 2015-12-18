@@ -8,7 +8,7 @@ Nothing more than a command line todo list. So simply:
 
 Add to your shell profile script:
 
-      export PATH="[...]:/Users/yourhome/todos/bin"
+      export PATH="[...]:/path_to_todos_home/todos/bin"
 
 - look in todos/bin for a complete list and use it everywhere in your file system:
 
