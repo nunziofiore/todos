@@ -13,35 +13,58 @@ Add to your shell profile script:
 - look in todos/bin for a complete list and use it everywhere in your file system:
 
 * add
+
 ex.
+
 ➜ add "I have to be happy"
+
 ➜ add "I have to be great"
 
 * list
+
 ex
+
 ➜  list
+
 1 [OPEN]- I have to be happy
+
 2 [OPEN]- I have to be great
 
 * complete
+
 ex
+
 ➜ complete 1
+
 now you can launch list
+
 ➜  list
+
 2 [OPEN]- I have to be great
 
 * listall
+
 ex
+
 ➜ listall
+
 1 [COMPLETED]- I have to be happy
+
 2 [OPEN]- I have to be great
 
+
 * delete
+
 ex
+
 ➜ delete 1
+
 now you can launch listall
+
 ➜  list
+
 2 [OPEN]- I have to be great
+
 
 just it ;)
 
