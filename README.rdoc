@@ -12,6 +12,8 @@ Add to your shell profile script:
 
 - look in todos/bin for a complete list and use it everywhere in your file system:
 
+At the moment we have this simple list of commands:
+
 * add
 * complete
 * list
