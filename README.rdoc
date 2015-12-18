@@ -1,6 +1,6 @@
 == SIMPLE TODO LIST FROM COMMAND LINE
 
-At the moment nothing more than a command line todo list. So simply:
+Nothing more than a command line todo list. So simply:
 
 - git clone
 - bundle install
