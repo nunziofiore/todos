@@ -1,28 +1,48 @@
-== README
+== SIMPLE TODO LIST FROM COMMAND LINE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+At the moment nothing more than a command line todo list. So simply:
 
-Things you may want to cover:
+- git clone
+- bundle install
+- rake db:setup
 
-* Ruby version
+Add to your shell profile script:
 
-* System dependencies
+      export PATH="[...]:/Users/yourhome/todos/bin"
 
-* Configuration
+- look in todos/bin for a complete list and use it everywhere in your file system:
 
-* Database creation
+* add
+ex.
+➜ add "I have to be happy"
+➜ add "I have to be great"
 
-* Database initialization
+* list
+ex
+➜  list
+1 [OPEN]- I have to be happy
+2 [OPEN]- I have to be great
 
-* How to run the test suite
+* complete
+ex
+➜ complete 1
+now you can launch list
+➜  list
+2 [OPEN]- I have to be great
 
-* Services (job queues, cache servers, search engines, etc.)
+* listall
+ex
+➜ listall
+1 [COMPLETED]- I have to be happy
+2 [OPEN]- I have to be great
 
-* Deployment instructions
+* delete
+ex
+➜ delete 1
+now you can launch listall
+➜  list
+2 [OPEN]- I have to be great
 
-* ...
+just it ;)
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+If you want to add command, priority or more, you're welcome!
